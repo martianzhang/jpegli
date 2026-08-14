@@ -6,6 +6,8 @@ Go encoder/decoder for [JPEG](https://en.wikipedia.org/wiki/JPEG).
 
 Based on [jpegli](https://github.com/google/jpegli) from libjxl compiled to [WASM](https://en.wikipedia.org/wiki/WebAssembly) and used with [wazero](https://wazero.io/) runtime (CGo-free).
 
+For a pure Go alternative, see [jpegn](https://github.com/gen2brain/jpegn), a JPEG decoder and encoder with jpegli's adaptive quantization, SIMD support, no CGo/WASM and no dependencies.
+
 ### Build tags
 
 * `wasm2go` - transpile the WASM to pure Go with [wasm2go](https://github.com/ncruces/wasm2go) instead of running it with wazero
