@@ -1,4 +1,4 @@
-module github.com/gen2brain/jpegli
+module github.com/martianzhang/jpegli
 
 go 1.25.0
 

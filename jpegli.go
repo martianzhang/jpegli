@@ -336,7 +336,3 @@ func padEdge(row []byte, valid int) {
 		row[i] = last
 	}
 }
-
-func init() {
-	image.RegisterFormat("jpeg", "\xff\xd8", Decode, DecodeConfig)
-}
